@@ -125,7 +125,10 @@
   *{package}{caption}     {2023/08/05 v3.6o}
   *{package}{caption3}    {2023/07/31 v2.4d}
   *{file}   {caption-beamer.sto}{2022/01/06 v2.0c}
+  *{package}{bibentry}    {2007/10/30 v1.5}
+  *{package}{array}       {2023/10/16 v2.5g}
   *{package}{booktabs}    {2020/01/12 v1.61803398}
+  *{package}{tabularx}    {2023/07/08 v2.11c}
   *{package}{qrcode}      {2015/01/08 v1.51}
   *{file}   {l3backend-pdftex.def}{2024-02-20 v3}
   *{file}   {supp-pdf.mkii}{0000/00/00 v0.0}
@@ -154,6 +157,5 @@
   *{file}   {images/neural-net-culicidae-mitogenomes-figure-4.png}{0000/00/00 v0.0}
   *{file}   {images/UNSGM_DryLab_Certificate-28.pdf}{0000/00/00 v0.0}
   *{file}   {images/IWTSDLogo.png}{0000/00/00 v0.0}
-  *{file}   {images/cfia-canada-logo.pdf}{0000/00/00 v0.0}
   *{file}   {images/cfia-canada-logo.pdf}{0000/00/00 v0.0}
 }
