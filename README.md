@@ -1,5 +1,7 @@
 # CSV 2024 - CFIA NCFAD Genomics Unit poster
 
+[![Build PDF](https://github.com/CFIA-NCFAD/2024-CSV-lab-overview-poster/actions/workflows/build.yml/badge.svg)](https://github.com/CFIA-NCFAD/2024-CSV-lab-overview-poster/actions/workflows/build.yml)
+
 A scientific conference poster to be presented at the 5th Symposium of the Canadian Society for Virology ([CSV2024](https://harlowagency.swoogo.com/CSV)) going over the Canadian Food Inspection Agency (CFIA) National Centre for Foreign Animal Disease (NCFAD) Genomics Unit led by Dr Oliver Lung.
 
 ## Building from source
