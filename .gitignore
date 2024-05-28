@@ -1,0 +1,10 @@
+*.pdf
+poster.aux
+poster.fdb_latexmk
+poster.fls
+poster.log
+poster.nav
+poster.out
+poster.snm
+poster.synctex.gz
+poster.toc
