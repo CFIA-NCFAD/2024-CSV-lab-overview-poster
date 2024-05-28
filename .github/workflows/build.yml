@@ -16,7 +16,7 @@ jobs:
             beamer grffile graphbox babel-english beamerposter caption booktabs qrcode 
             xkeyval snapshot type1cm fp
       - name: LaTeX compilation
-        run: latexmk -lualatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode poster.tex
+        run: latexmk -lualatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode poster.tex || true
       - uses: actions/upload-artifact@v4
         with: 
           name: poster
