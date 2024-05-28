@@ -13,7 +13,7 @@ jobs:
         with:
           packages: >-
             latex latex-bin luatex latex-bin-dev latexmk scheme-basic
-            beamer grffile graphbox babel-english beamerposter caption bibentry array booktabs tabularx qrcode
+            beamer grffile graphbox babel-english beamerposter caption booktabs qrcode
       - name: LaTeX compilation
         run: latexmk -lualatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode poster.tex
       - uses: actions/upload-artifact@v4
