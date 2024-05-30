@@ -1,5 +1,5 @@
 \RequireVersions{
-  *{application}{pdfTeX}  {0000/00/00 v1.40.26}
+  *{application}{luaTeX}  {0000/00/00 v1.18.0}
   *{format} {LaTeX2e}     {2023-11-01 v2.e}
   *{class}  {beamer}      {2024/01/06 v3.71}
   *{package}{beamerbasemodes}{0000/00/00 v0.0}
@@ -22,7 +22,7 @@
   *{package}{graphics}    {2022/03/10 v1.4e}
   *{package}{trig}        {2021/08/11 v1.11}
   *{file}   {graphics.cfg}{2016/06/04 v1.11}
-  *{file}   {pdftex.def}  {2022/09/22 v1.2b}
+  *{file}   {luatex.def}  {2022/09/22 v1.2d}
   *{package}{pgfsys}      {2023-01-15 v3.1.10}
   *{file}   {pgfsys.code.tex}{0000/00/00 v0.0}
   *{file}   {pgfsyssoftpath.code.tex}{2023-01-15 v3.1.10}
@@ -52,7 +52,8 @@
   *{package}{url}         {2013/09/16 v3.4}
   *{package}{bitset}      {2019/12/09 v1.3}
   *{package}{bigintcalc}  {2019/12/15 v1.5}
-  *{file}   {hpdftex.def} {2024-01-20 v7.01h}
+  *{file}   {hluatex.def} {2024-01-20 v7.01h}
+  *{package}{stringenc}   {2019/11/29 v1.12}
   *{package}{atveryend-ltx}{2020/08/19 v1.0a}
   *{package}{rerunfilecheck}{2022-07-10 v1.10}
   *{package}{uniquecounter}{2019/12/15 v1.4}
@@ -130,7 +131,8 @@
   *{package}{booktabs}    {2020/01/12 v1.61803398}
   *{package}{tabularx}    {2023/07/08 v2.11c}
   *{package}{qrcode}      {2015/01/08 v1.51}
-  *{file}   {l3backend-pdftex.def}{2024-02-20 v3}
+  *{file}   {l3backend-luatex.def}{2024-02-20 v3}
+  *{file}   {ts1cmr.fd}   {2023/04/13 v2.5m}
   *{file}   {supp-pdf.mkii}{0000/00/00 v0.0}
   *{package}{epstopdf-base}{2020-01-24 v2.11}
   *{file}   {epstopdf-sys.cfg}{2010/07/13 v1.3}
@@ -142,7 +144,6 @@
   *{file}   {translator-months-dictionary-English.dict}{0000/00/00 v0.0}
   *{file}   {translator-numbers-dictionary-English.dict}{0000/00/00 v0.0}
   *{file}   {translator-theorem-dictionary-English.dict}{0000/00/00 v0.0}
-  *{file}   {ot1mathkerncmss.fd}{2020/01/31 v1.933}
   *{-------}{Document-specific files:}{----}
   *{file}   {images/cfia-canada-logo.pdf}{0000/00/00 v0.0}
   *{file}   {images/cfia-canada-logo.pdf}{0000/00/00 v0.0}
