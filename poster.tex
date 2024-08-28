@@ -4,7 +4,7 @@
 \mode<presentation>{\usetheme{I6pd2}}
 \usepackage[english]{babel}
 \boldmath
-\usepackage[orientation=landscape,size=a1,scale=1.24,debug]{beamerposter}
+\usepackage[orientation=landscape,size=custom,width=106.68,height=81.28,scale=1.165,debug]{beamerposter}
 
 \usepackage{snapshot} % will write a .dep file with all dependencies, allows for easy bundling
 \usepackage{caption}
@@ -39,7 +39,7 @@ Canadian Food Inspection Agency, National Centre for Foreign Animal Disease, Win
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newlength{\columnheight}
-\setlength{\columnheight}{104cm}
+\setlength{\columnheight}{80cm}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -72,12 +72,12 @@ Canadian Food Inspection Agency, National Centre for Foreign Animal Disease, Win
     \includegraphics[width=1.0\linewidth]{images/2024-05-07-ncfad-genomics-unit-workflow-sample-to-results.pdf}
   \end{block}
             
-  \vskip-1ex
+  % \vskip-1ex
   \begin{block}{Rapid Influenza Sequencing and Analysis Using Nanopore and nf-flu}
     % \vskip1.5ex
     \begin{columns}
-      \begin{column}{0.4\textwidth}
-        \vskip-2ex
+      \begin{column}{0.33\textwidth}
+        \vskip0.5ex
 
         In response to the 2021 H5N1 Influenza A virus (IAV) outbreak, we developed an end-to-end workflow for sequencing and analysis providing comprehensive results within hours of sample receipt. Oxford Nanopore GridION sequencing and nf-flu Nextflow pipeline analysis have allowed us to rapidly and cost effectively sequence and analyse over 5,200 IAV sequenced between December 2021 and April 2024.
 
@@ -90,7 +90,7 @@ Canadian Food Inspection Agency, National Centre for Foreign Animal Disease, Win
         \end{itemize}
 
       \end{column}
-      \begin{column}{0.58\textwidth}
+      \begin{column}{0.64\textwidth}
         \vskip1.5ex
         \includegraphics[width=1.0\linewidth]{images/AIV Nanopore Sequencing Protocol-1.pdf}
       \end{column}
@@ -128,11 +128,10 @@ Canadian Food Inspection Agency, National Centre for Foreign Animal Disease, Win
     \end{columns}
   \end{block}
 
-  % \vskip-1ex
   \begin{block}{High-Throughput Sequencing and Novel Virus Discovery}
-    % \vskip0.0ex
     \begin{columns}
     \begin{column}{.26\textwidth}
+      % \vskip-1ex
       \parbox[t]{\textwidth}{
       \begin{table}
       \caption{Targets in samples sequenced from 2017 to August 28, 2024.}
@@ -156,6 +155,7 @@ Canadian Food Inspection Agency, National Centre for Foreign Animal Disease, Win
     % empty spacer column
     \end{column}
     \begin{column}{.67\textwidth}
+    \vskip1.0ex
     \begin{tabular}{c l c}
       & \textbf{Novel Virus Publication Title} & \textbf{Link} \\
       % Senecavirus cetus
